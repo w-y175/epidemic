@@ -1,0 +1,25 @@
+#rumor{
+    padding-top: 60px;
+    margin-top: -46px;
+}
+.sectionTitle{
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: .35rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/smart.png') .4rem center no-repeat;
+    padding: 0 .7rem;
+    color: #005dff;
+    position: relative;
+}
+.rumor_more {
+position: absolute;
+right: .4rem;
+margin-top: -36px;
+background: url('https://mat1.gtimg.com/news/signin/v6/zixunmore.png');
+width: 2.16rem;
+height:.5rem;
+background-size: 100% 100%;
+}
