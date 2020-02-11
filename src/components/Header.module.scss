@@ -1,0 +1,217 @@
+.charts{
+    width:100%;
+}
+.head{
+    height: 3.34rem;
+    background: url(https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/top_headv3.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    .jump{
+        width: 1.68rem;
+        height: 0.52rem;
+        background: url(https://mat1.gtimg.com/news/signin/v6/yiqing_more_icon.png);
+        background-size: 100% 100%;
+        position: absolute;
+        right: 0;
+        top: 0.38rem;
+    }
+    .jump_zhuizong{
+        width: 1.68rem;
+        height: 0.52rem;
+        background: url(https://mat1.gtimg.com/news/signin/v6/yiqing_zhuizong_more.png);
+        background-size: 100% 100%;
+        position: absolute;
+        right: 1.8rem;
+        top: 0.38rem;
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        line-height: 0.26rem;
+        height: 0.26rem;
+        font-size: 0.24rem;
+        color: #fff;
+        position: absolute;
+        left: .4rem;
+        right: .4rem;
+        bottom: .3rem;
+        .qs{
+            position: relative;
+            padding-right: 0.34rem;
+        }
+    }
+}
+.topdataWrap{
+    padding:0;
+    // display: flex;
+}
+.timeNum{
+    padding:0.29rem 0.4rem 0.29rem .4rem;
+    line-height:0.26rem;
+    font-size:0.24rem;
+    color:#222222;
+    position: relative;
+    .bottom{
+        color:#737373;
+        font-size:0.24rem;
+        margin-top:0.08rem;
+        // display: flex;
+        // justify-content: space-between;
+        .d{
+            padding-right:0.12rem;
+            margin-right:0.12rem;
+            position: relative;
+            span{
+                font-weight: 500;
+                color:#222;
+            }
+            em{
+                font-style:normal;
+            }
+        }
+    }
+}
+.recentNumber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:0.3rem;
+    position: relative;
+    z-index: 2;
+    .icbar{
+        width:5.64rem;
+        margin-right:0.04rem;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        .add{
+            padding-top:0.12rem;
+            color:#7c7c7c;
+            font-size:0.2rem;
+            line-height:0.24rem;
+            font-weight: 500;
+            
+        }
+        .number{
+            font-size:0.44rem;
+            margin-bottom:0.08rem;
+            font-weight: 600;
+            padding-top:0.12rem;
+        }
+        .text{
+            font-size:0.24rem;
+            height: 0.54rem;
+            line-height: 0.54rem;
+            color: #222;
+            font-weight: 500;
+        }
+    }
+    .icbar .confirm{
+        border-radius: 0.12rem 0 0 0.12rem;
+        background-color: #f1f1f1;
+        span{
+            color:#f55253;
+        }
+        .number{
+            color:#f55253;
+        }
+    }
+    .icbar .suspect{
+        background-color:#fff7ed;
+        span{
+            color:#ff961e;
+            display: inline-block;
+            padding-right:.28rem;
+            position: relative;
+        }
+        .number{
+            color:#ff961e;
+        }
+    }
+    .icbar .cure{
+        background-color:#f1f8f4;
+        span{
+            color: #178b50;
+        }
+        .number{
+            color: #178b50;
+        }
+    }
+    .icbar .dead{
+        background-color: #f8f8f8;
+        span{
+            color:#66666c;
+        }
+        .number{
+            color:#66666c;
+        }
+    }
+}
+// .imgs img{
+//     width: 375px;
+// }
+// .xi{
+//     width: 375px;
+//     height: 30px;
+  
+//     background: red;
+//     position: sticky;
+//     top: 0;
+//     z-index: 10;
+// }
+// .recentNumber{
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     padding-bottom: 30px;
+//     position: relative;
+//     z-index: 2;
+
+// }
+// .icbar .confirm {
+//     background-color: #fdf1f1;
+//     width: 1.82rem;
+//     height: 1.77rem;
+//     margin-right: 0.4rem;
+//     position: relative;
+//     text-align: center;
+
+// }
+// .recentNumber .add {
+//     display: block;
+// }
+// .icbar.confirm .add{
+//     padding-top: 0.12rem;
+//     color: #7c7c7c;
+//     font-size: .1rem;
+//     line-height: 0.24rem;
+//     font-weight: 500;
+// }
+// .icbar.confirm .add span {
+//     color: #f55253;
+// }
+// .recentNumber .icbar .number {
+//     height: auto;
+//     line-height: 0.46rem;
+//     color: #f55253;
+//     font-size: 0.44rem;
+//     margin-bottom: 0.08rem;
+//     font-weight: 600;
+//     padding-top: 0.12rem;
+// }
+
+// .icbar.confirm .text {
+//     background-color: #ffe0e0;
+// }
+// .recentNumber .icbar .text {
+//     font-size: 0.24rem;
+//     height: 0.54rem;
+//     line-height: 0.54rem;
+//     color: #222;
+//     font-weight: 500;
+// }
+// .icbar:first-child .text {
+//     border-radius: 0 0 0 0.12rem;
+// }

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {getHospitalProvince,getHospitalCityByProvince} from '../services/index'
+import {getHospitalProvince} from '../services/index'
 import styles from './Hospital.module.scss'
 
 interface ProType {
@@ -10,32 +10,24 @@ interface ProType {
 }
 
 const Hospital = ()=>{
-    // 定义全国城市数据
+    // 定义全国医院数据
     let [provinces, setProvinces] = useState<ProType[]>([]);
-    // 定义省城市医院数据
-    // let [cityProvinces, setCityProvinces] = useState<ProType[]>([]);
 
-    
+    // 获取全国医院数据
     useEffect(()=>{
-        // 获取全国城市数据
         getHospitalProvince().then((res:any)=>{
         res = res.data;
-        if(res.code === 0){
+        if(res.code == 0){
             setProvinces(res.args.rsp.provinces);
         }
         })
-        
     }, []);
-    console.log(provinces,'provinces');
     
-    const expandProvince = (index: number,item:any)=>{
+    const expandProvince = (index: number)=>{
         let newProvinces = [...provinces];
         newProvinces[index].active = !provinces[index].active;
-        setProvinces(newProvinces);
-        //获取省城市医院数据
-        getHospitalCityByProvince({item}).then(res=>{
-            console.log(res,'res,');
-        })
+
+        setProvinces(newProvinces)
     }
 
     return <>
@@ -44,7 +36,7 @@ const Hospital = ()=>{
         </div>
         <div className={styles.hospital}>{
             provinces.map((item, index)=>{
-                return <div className={styles.hotelItemWrap} key={index} onClick={()=>expandProvince(index,item)}>
+                return <div className={styles.hotelItemWrap} key={index} onClick={()=>expandProvince(index)}>
                 <div className={styles.hotelProvince}>
                     <div className={styles.name}>{item.provinceName}</div>
                     <div className={item.active?styles.activeCount:styles.count}></div>
