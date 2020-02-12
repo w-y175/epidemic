@@ -55,7 +55,7 @@ const App = () => {
       {/* 疫情概况 */}
       <Header total={total as TotalType}/>
       {/* 疫情分布地图展示 */}
-      {/* <Map countryData={countryData}/> */}
+      <Map countryData={countryData}/>
       {/* 图表显示疫情 */}
       <Chart chinaDayAddList={dayAddList} chinaDayList={dayList}/>
       {/* 疫情速报 */}

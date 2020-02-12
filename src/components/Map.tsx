@@ -57,7 +57,7 @@ const Hospital = (props: PropType) => {
     }, [props.countryData]);
 
     return <>
-        <div id="map" style={{ width: '800px', height: '500px' }}></div>
+        <div id="map" style={{ width: '375px', height: '500px' }}></div>
     </>
 }
 

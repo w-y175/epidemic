@@ -25,8 +25,6 @@
         top: 0.38rem;
     }
     .bottom{
-        display: flex;
-        justify-content: space-between;
         line-height: 0.26rem;
         height: 0.26rem;
         font-size: 0.24rem;
@@ -55,8 +53,8 @@
         color:#737373;
         font-size:0.24rem;
         margin-top:0.08rem;
-        // display: flex;
-        // justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
         .d{
             padding-right:0.12rem;
             margin-right:0.12rem;
@@ -75,7 +73,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom:0.3rem;
+    padding-bottom:.2rem;
     position: relative;
     z-index: 2;
     .icbar{
@@ -148,70 +146,6 @@
         }
     }
 }
-// .imgs img{
-//     width: 375px;
-// }
-// .xi{
-//     width: 375px;
-//     height: 30px;
-  
-//     background: red;
-//     position: sticky;
-//     top: 0;
-//     z-index: 10;
-// }
-// .recentNumber{
-//     width: 100%;
-//     display: flex;
-//     justify-content: space-around;
-//     align-items: center;
-//     padding-bottom: 30px;
-//     position: relative;
-//     z-index: 2;
 
-// }
-// .icbar .confirm {
-//     background-color: #fdf1f1;
-//     width: 1.82rem;
-//     height: 1.77rem;
-//     margin-right: 0.4rem;
-//     position: relative;
-//     text-align: center;
 
-// }
-// .recentNumber .add {
-//     display: block;
-// }
-// .icbar.confirm .add{
-//     padding-top: 0.12rem;
-//     color: #7c7c7c;
-//     font-size: .1rem;
-//     line-height: 0.24rem;
-//     font-weight: 500;
-// }
-// .icbar.confirm .add span {
-//     color: #f55253;
-// }
-// .recentNumber .icbar .number {
-//     height: auto;
-//     line-height: 0.46rem;
-//     color: #f55253;
-//     font-size: 0.44rem;
-//     margin-bottom: 0.08rem;
-//     font-weight: 600;
-//     padding-top: 0.12rem;
-// }
 
-// .icbar.confirm .text {
-//     background-color: #ffe0e0;
-// }
-// .recentNumber .icbar .text {
-//     font-size: 0.24rem;
-//     height: 0.54rem;
-//     line-height: 0.54rem;
-//     color: #222;
-//     font-weight: 500;
-// }
-// .icbar:first-child .text {
-//     border-radius: 0 0 0 0.12rem;
-// }
